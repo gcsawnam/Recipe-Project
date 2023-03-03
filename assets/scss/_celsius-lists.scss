@@ -1,0 +1,86 @@
+@import 'mixin';
+.heading-celsius{
+    @media (min-width:200px){
+    font-size:20px !important;}
+}
+.has-inter-font-family{
+   @media( max-width:1280){
+  font-size:16px !important;
+  max-width: unset !important;
+    }
+    @media (max-width:1073px){
+        font-size:13px !important;
+    }
+    @media (max-width:928px){
+        font-size:11px !important;
+    }
+    @media (max-width:808px){
+        font-size:9px !important;
+    }
+}
+.wp-block-buttons>.wp-block-button.has-custom-font-size .wp-block-button__link {
+    @media( max-width:$ipadpro){
+        font-size:11px !important;
+          }
+}
+
+.wp-block-navigation-item__content{
+    @media( max-width:948px){
+        font-size:13px !important;
+          }
+}
+.wp-block-navigation-item__content{
+    @media( max-width:801px){
+        font-size:9px !important;
+          }
+}
+@media (max-width: 768px){
+
+.wp-block-navigation__responsive-container-open{
+    margin-left:95px !important;
+}
+}
+@media (max-width:782px){
+body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)) {
+max-width:unset !important;
+}
+.is-content-justification-center.is-layout-constrained.wp-block-column.smarterimage{
+margin:12px !important;
+}
+.is-layout-flow.wp-block-column{
+    margin:16px !important;
+    }
+ .has-inter-font-family{
+        max-width: 600px !important;
+        font-size: 15px !important;
+    }
+    
+}
+@media (max-width:600px){
+ 
+    .wp-block-navigation-item__content{
+        font-size: 17px !important;
+    }
+    #wpadminbar{
+        position:fixed !important;
+    }
+    .is-nowrap.is-layout-flex.wp-container-1.wp-block-group{
+        flex:1.5;
+    }
+}
+
+ @media (max-width:599px){
+    .wp-block-navigation__submenu-icon.wp-block-navigation-submenu__toggle{
+        display:block !important;
+    }
+   
+}
+@media (max-width:1400px){
+    .is-layout-flex.wp-container-21.wp-block-columns{
+        padding:0px 20px 0px 20px;
+    }
+    .is-layout-constrained.wp-container-27.wp-block-group{
+        padding:0px 20px 0px 20px;
+    
+    }
+}

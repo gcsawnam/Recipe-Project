@@ -1,0 +1,27 @@
+.dr-post-carousel.owl-carousel .owl-item img {
+  width: 95% !important;
+}
+
+.dr-post-carousel.owl-carousel .owl-nav button:hover {
+  background: #232323;
+}
+
+.dr-post-carousel.owl-carousel .owl-nav button[class*=owl-]:hover {
+  background-color: black !important;
+}
+
+.has-small-font-size {
+  max-width: 526px;
+}
+
+.has-inter-font-family {
+  max-width: 526px;
+}
+
+.celsius_Section {
+  margin-top: 20px;
+}
+
+.owl-carousel.owl-stage-outer {
+  overflow: unset !important;
+}/*# sourceMappingURL=celsius-blocks-list.css.map */

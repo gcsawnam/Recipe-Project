@@ -1,0 +1,97 @@
+
+
+
+.wp-image-440{
+  display: none;
+}
+.is-content-justification-center.is-layout-constrained.wp-container-8.wp-block-group.alignwide {
+  position: fixed;
+  background: white;
+  height: 73px;
+  width: 100%;
+  z-index: 2;
+}
+
+
+.wp-block-search__button-outside.wp-block-search__icon-button.aligncenter.wp-block-search.navbar_Search_Button{
+  display: none;
+
+}
+.is-nowrap.is-layout-flex.wp-container-1.wp-block-group{
+  flex: 1;
+  justify-content: flex-start;
+}
+.is-layout-constrained.wp-block-group.navbar_Section{
+  flex: 2.5;
+  justify-content: space-evenly;
+}
+.is-nowrap.is-layout-flex.wp-container-6.wp-block-group{
+  flex: 1;
+  justify-content: flex-end;
+}
+.wp-block-navigation__container{
+  justify-content: space-evenly;
+  
+}
+
+
+.li-menus a::after{
+  content: "";
+  display: block;
+  background-color:#3f3f3f;
+  transition: width 0.3s;
+width: 0;
+height: 2px;
+}
+.li-menus a:hover:after{
+  width: 100%;
+  transition: width 0.3s;
+
+}
+ .sub-menu a::after{
+  display:unset;
+  background-color:unset;
+  transition:unset;
+width: unset;
+height: unset;
+ }
+ .sub-menu a:hover::after{
+  width: unset;
+  transition: unset;
+ }
+
+
+
+.wp-block-navigation__submenu-container{
+  width:205px;
+}
+
+.sub-menu{
+  padding-left: 25px;
+}
+
+.wp-block-site-logo{
+  margin-top: 12px !important; 
+}
+
+
+.li-menus{
+  font-size: 16px;
+  font-family: 'inter' sans-serif !important;
+}
+.wp-block-search__inside-wrapper{
+  margin-top: 10px !important;
+}
+s
+.search_icon {
+  
+  margin-top: 8px!important; 
+}
+.sub-menu{
+  padding-left:12px !important;
+}
+.wp-block-navigation__submenu-icon.wp-block-navigation-submenu__toggle{
+  display:none;
+  position: fixed;
+  right:36px;
+}
