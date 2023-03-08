@@ -8,8 +8,8 @@
 <!-- wp:group {"layout":{"type":"constrained","contentSize":"1300px"}} -->
 <div class="wp-block-group"><!-- wp:columns -->
 <div class="wp-block-columns"><!-- wp:column {"className":"smarterimage","layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-column smarterimage"><!-- wp:image {"id":240,"sizeSlug":"full","linkDestination":"none","className":"smartimage"} -->
-<figure class="wp-block-image size-full smartimage"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/celsius-search-image-4.jpg" alt="" class="wp-image-240"/></figure>
+<div class="wp-block-column smarterimage"><!-- wp:image {"id":1462,"sizeSlug":"full","linkDestination":"none","className":"smartimage"} -->
+<figure class="wp-block-image size-full smartimage"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/celsius-search-image-4.jpg" alt="" class="wp-image-1462"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column -->
 
@@ -56,8 +56,8 @@
 <!-- /wp:column -->
 
 <!-- wp:column {"className":"smarterimage","layout":{"type":"constrained","justifyContent":"center"}} -->
-<div class="wp-block-column smarterimage"><!-- wp:image {"id":267,"width":638,"height":428,"sizeSlug":"full","linkDestination":"none","className":"smartimage"} -->
-<figure class="wp-block-image size-full is-resized smartimage"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/Apple.jpg" alt="" class="wp-image-267" width="638" height="428"/></figure>
+<div class="wp-block-column smarterimage"><!-- wp:image {"id":1465,"sizeSlug":"full","linkDestination":"none","className":"smartimage"} -->
+<figure class="wp-block-image size-full smartimage"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/celsius-search-image-4.jpg" alt="" class="wp-image-1465"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:column --></div>
 <!-- /wp:columns --></div>
