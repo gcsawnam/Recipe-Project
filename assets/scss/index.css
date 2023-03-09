@@ -2,7 +2,7 @@
   display: none;
 }
 
-.is-content-justification-center.is-layout-constrained.wp-container-8.wp-block-group.alignwide {
+.is-content-justification-center.is-layout-constrained.wp-container-9.wp-block-group.alignwide {
   position: fixed;
   background: white;
   height: 73px;
@@ -280,7 +280,6 @@
 #overlay {
   position: fixed;
   display: none;
-  width: 100%;
   /* Full width (cover the whole page) */
   height: 100%;
   /* Full height (cover the whole page) */

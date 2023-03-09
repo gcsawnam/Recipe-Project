@@ -29,6 +29,10 @@ function recipes_scripts() {
 
 	wp_enqueue_script('pre', get_template_directory_uri(). '/assets/js/index.js','1.0.0', array('jquery'), '1.0.0', true);
 
+	wp_localize_script( 'pre', 'mytheme', array(
+        'imagePath' => get_template_directory_uri(),
+    ) );
+
 
 }
 
