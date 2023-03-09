@@ -4,7 +4,7 @@
  *
  * @return void
  */
-function paloma_fse_get_color_value( $value ) {
+function recipes_get_color_value( $value ) {
 	if ( strpos($value, 'var:') !== false ) {
 		// var:preset|color|vivid-red
 		$value = str_replace( 'var:','', $value );
@@ -13,7 +13,7 @@ function paloma_fse_get_color_value( $value ) {
 	}
 	return $value;
 }
-function paloma_fse_global_styles_vars() {
+function recipes_global_styles_vars() {
 	if ( defined( 'OLIVE_THEMES_VERSION' ) || ! function_exists( 'wp_get_global_styles' ) ) {
 		return false;
 	}
@@ -53,12 +53,12 @@ function paloma_fse_global_styles_vars() {
 	}
 
 	if ( ! empty( $core_button_styles['color']['background'] ) ) {
-		$element_css_styles .= '--wp--custom--core-button--color--background: ' . paloma_fse_get_color_value( $core_button_styles['color']['background'] ) . ';';
+		$element_css_styles .= '--wp--custom--core-button--color--background: ' . recipes_get_color_value( $core_button_styles['color']['background'] ) . ';';
 	}
 
 	if ( ! empty( $core_button_styles['color']['text'] ) ) {
 		// var(--wp--preset--color--vivid-red)
-		$element_css_styles .= '--wp--custom--core-button--color: ' . paloma_fse_get_color_value( $core_button_styles['color']['text'] ) . ';';
+		$element_css_styles .= '--wp--custom--core-button--color: ' . recipes_get_color_value( $core_button_styles['color']['text'] ) . ';';
 	}
 
 	if ( isset( $core_button_styles['border']['width'] ) ) {
@@ -93,11 +93,11 @@ function paloma_fse_global_styles_vars() {
 	}
 
 	if ( ! empty( $core_button_styles[':hover']['color']['background'] ) ) {
-		$element_css_styles .= '--wp--custom--core-button--hover--color--background: ' . paloma_fse_get_color_value( $core_button_styles[':hover']['color']['background'] ) . ';';
+		$element_css_styles .= '--wp--custom--core-button--hover--color--background: ' . recipes_get_color_value( $core_button_styles[':hover']['color']['background'] ) . ';';
 	}
 
 	if ( ! empty( $core_button_styles[':hover']['color']['text'] ) ) {
-		$element_css_styles .= '--wp--custom--core-button--hover--color: ' . paloma_fse_get_color_value( $core_button_styles[':hover']['color']['text'] ) . ';';
+		$element_css_styles .= '--wp--custom--core-button--hover--color: ' . recipes_get_color_value( $core_button_styles[':hover']['color']['text'] ) . ';';
 	}
 
 	if ( ! empty( $element_css_styles ) ) {
@@ -108,4 +108,4 @@ function paloma_fse_global_styles_vars() {
 	wp_add_inline_style( 'global-styles', $css_styles );
 
 }
-add_action( 'wp_enqueue_scripts', 'paloma_fse_global_styles_vars', 100 );
+add_action( 'wp_enqueue_scripts', 'recipes_global_styles_vars', 100 );
