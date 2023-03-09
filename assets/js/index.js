@@ -4,6 +4,7 @@ $(document).ready(function () {
   const SearchLink = document.createElement("a"); // create anchor tag
     
   SearchLink.href = "#"; // set href for the anchor tag
+  let isSearchclick = false;
     
   const SearchBtn = document.createElement("img");
   SearchBtn.classList.add("search_icon");
@@ -12,7 +13,6 @@ $(document).ready(function () {
     SearchBtn.src = `${themePath}/assets/images/magnifying-glass-solid.jpg`
   SearchLink.appendChild(SearchBtn); 
   Search.appendChild(SearchLink); 
-  let isSearchclick = true;
   
     $(".search_icon").on("click", function(e) {
       e.preventDefault();
