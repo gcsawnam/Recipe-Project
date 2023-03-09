@@ -100,10 +100,11 @@
   width: 124px;
   display: flex;
   flex-direction: column;
-  position: absolute;
-  top: 0;
-  right: 76px;
+  position: fixed;
+  top: 104px;
+  right: 49px;
   visibility: hidden;
+  z-index: 999;
 }
 
 .search_icon {
