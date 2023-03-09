@@ -1,26 +1,26 @@
 <?php
 /**
- * Paloma FSE: Block Patterns
+ * Recipes: Block Patterns
  *
- * @since Paloma FSE 1.0
+ * @since Recipes 1.0
  */
 
 /**
  * Registers pattern categories.
  *
- * @since Paloma FSE 1.0
+ * @since Recipes 1.0
  *
  * @return void
  */
-function paloma_fse_register_pattern_category() {
+function recipes_register_pattern_category() {
 
 	$patterns = array();
 
 	$block_pattern_categories = array(
-		'paloma-fse' => array( 'label' => __( 'Paloma FSE', 'paloma-fse' ) )
+		'recipes' => array( 'label' => __( 'Recipes', 'recipes' ) )
 	);
 
-	$block_pattern_categories = apply_filters( 'paloma_fse_block_pattern_categories', $block_pattern_categories );
+	$block_pattern_categories = apply_filters( 'recipes_block_pattern_categories', $block_pattern_categories );
 
 	foreach ( $block_pattern_categories as $name => $properties ) {
 		if ( ! WP_Block_Pattern_Categories_Registry::get_instance()->is_registered( $name ) ) {
@@ -28,4 +28,4 @@ function paloma_fse_register_pattern_category() {
 		}
 	}
 }
-add_action( 'init', 'paloma_fse_register_pattern_category', 9 );
+add_action( 'init', 'recipes_register_pattern_category', 9 );
