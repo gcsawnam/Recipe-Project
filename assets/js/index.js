@@ -79,12 +79,6 @@ $(document).ready(function () {
 
    isdownIconClick=true;
 
-  //  var width = $(window).width();
-  // if (width <= 600) {
-
-  
-  //    $(".wp-block-navigation__submenu-container").css("display","none")
-  // }
    
   
    $(".wp-block-navigation-submenu__toggle").on("click", function(e) {
@@ -101,13 +95,7 @@ $(document).ready(function () {
    
   })
     
-  // function off() {
-  //     document.getElementById("overlay").style.display = "none";
-
-
-    
-  //   window.onscroll = function () {};
-  // }
+  
   
 
 

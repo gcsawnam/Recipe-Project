@@ -287,7 +287,8 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background-color: rgba(95, 95, 95, 0.35);
+  background-color: #f2f2f2;
+  opacity: 0.3;
   /* Black background with opacity */
   z-index: 2;
   /* Specify a stack order in case you're using a different order for other elements */
