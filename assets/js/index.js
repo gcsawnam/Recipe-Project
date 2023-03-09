@@ -1,16 +1,22 @@
 
-    $(document).ready(function () {
-      let isSearchclick = false;
-    const Search = document.querySelector(".navbar_Image_Section");
-    const SearchBtn = document.createElement("img");
+$(document).ready(function () {
+  let isSearchclick = true;
+  const Search = document.querySelector(".navbar_Image_Section");
+  const SearchLink = document.createElement("a"); // create anchor tag
     
-    SearchBtn.classList.add("search_icon");
-    SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/magnifying-glass-solid.jpg";
-    Search.appendChild(SearchBtn);
+  SearchLink.href = "#"; // set href for the anchor tag
+    
+  const SearchBtn = document.createElement("img");
+    
+  SearchBtn.classList.add("search_icon");
+  SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/magnifying-glass-solid.jpg";
+  SearchLink.appendChild(SearchBtn); // add img tag as child of anchor tag
+  Search.appendChild(SearchLink); // add anchor tag to navbar_Image_Section
   
     $(".search_icon").on("click", function(e) {
       e.preventDefault();
       e.stopPropagation();
+      isSearchclick = !isSearchclick;
   
        isSearchclick
       ? (SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/magnifying-glass-solid.jpg")
@@ -30,7 +36,8 @@
             ? $("#overlay").css("display","none")
             : $("#overlay").css("display","block")
 
-            isSearchclick = !isSearchclick;
+      isSearchclick = !isSearchclick;
+
           })
 
      $("#overlay").on("click", function(e) {

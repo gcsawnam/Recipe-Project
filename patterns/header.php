@@ -20,7 +20,7 @@
 
 <!-- wp:group {"className":"navbar_Image_Section","layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group navbar_Image_Section"><!-- wp:image {"id":30,"width":21,"height":24,"sizeSlug":"full","linkDestination":"none"} -->
-<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>//assets/images/earth-americas-solid.jpg" alt="" class="wp-image-30" width="21" height="24"/></figure>
+<figure class="wp-block-image size-full is-resized"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/earth-americas-solid.jpg" alt="" class="wp-image-30" width="21" height="24"/></figure>
 <!-- /wp:image --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group --></div>

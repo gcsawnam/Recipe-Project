@@ -83,10 +83,10 @@ height: unset;
   margin-top: 10px !important;
 }
 s
-.search_icon {
+// .search_icon {
   
-  margin-top: 8px!important; 
-}
+//   margin-top: 8px!important; 
+// }
 .sub-menu{
   padding-left:12px !important;
 }
@@ -94,4 +94,32 @@ s
   display:none;
   position: fixed;
   right:36px;
+}
+.search_icon img {
+  height: 20px;
+}
+
+.earthicons-submenu{
+  border: 2px solid white;
+    width: 124px;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 76px;
+    visibility: visible;
+}
+  .earthicons:hover
+  .earthicons-submenu{
+visibility: visible;
+}
+.search_icon{
+  height:23px;
+  width: 24px;
+  margin-top: 20px !important;
+}
+
+.wp-block-search__button-outside.wp-block-search__icon-button.aligncenter.wp-block-search.navbar_Search_Button{
+  display: none;
+
 }
