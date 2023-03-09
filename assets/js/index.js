@@ -9,7 +9,7 @@ $(document).ready(function () {
   const SearchBtn = document.createElement("img");
     
   SearchBtn.classList.add("search_icon");
-  SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/magnifying-glass-solid.jpg";
+  SearchBtn.src = "<?php echo esc_url( get_template_directory_uri() );?>/assets/images/magnifying-glass-solid.jpg";
   SearchLink.appendChild(SearchBtn); // add img tag as child of anchor tag
   Search.appendChild(SearchLink); // add anchor tag to navbar_Image_Section
   
@@ -19,8 +19,8 @@ $(document).ready(function () {
       isSearchclick = !isSearchclick;
   
        isSearchclick
-      ? (SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/magnifying-glass-solid.jpg")
-      : (SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/circle-xmark-solid.jpg");
+      ? (SearchBtn.src = "<?php echo esc_url( get_template_directory_uri() );?>/assets/images/magnifying-glass-solid.jpg")
+      : (SearchBtn.src = "<?php echo esc_url( get_template_directory_uri() );?>/assets/images/circle-xmark-solid.jpg");
 
 
       isSearchclick
@@ -47,8 +47,8 @@ $(document).ready(function () {
       document.getElementById("overlay").style.display = "none";
   
        isSearchclick
-      ? (SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/magnifying-glass-solid.jpg")
-      : (SearchBtn.src = "http://localhost/wordpress/wp-content/themes/recipes/assets/images/circle-xmark-solid.jpg");
+      ? (SearchBtn.src = "<?php echo esc_url( get_template_directory_uri() );?>/assets/images/magnifying-glass-solid.jpg")
+      : (SearchBtn.src = "<?php echo esc_url( get_template_directory_uri() );?>/assets/images/circle-xmark-solid.jpg");
       
       isSearchclick
           ? $(".wp-image-28,.is-layout-flex.is-responsive.wp-block-navigation").css("display","block")
