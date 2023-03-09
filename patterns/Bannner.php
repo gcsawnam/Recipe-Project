@@ -5,10 +5,41 @@
   * Categories:featured
   */
 ?>
-
 <!-- wp:group {"layout":{"type":"default"}} -->
 <div class="wp-block-group"><!-- wp:cover {"url":"<?php echo esc_url( get_template_directory_uri() );?>/assets/images/banner.png","id":1451,"dimRatio":60,"focalPoint":{"x":0,"y":0.12},"minHeight":545,"minHeightUnit":"px","className":"is-light"} -->
-<div class="wp-block-cover is-light" style="min-height:545px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1451" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/banner.png" style="object-position:0% 12%" data-object-fit="cover" data-object-position="0% 12%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"className":"banner_Section","layout":{"type":"default"}} -->
+<div class="wp-block-cover is-light" style="min-height:545px"><span aria-hidden="true" class="wp-block-cover__background has-background-dim-60 has-background-dim"></span><img class="wp-block-cover__image-background wp-image-1451" alt="" src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/banner.png" style="object-position:0% 12%" data-object-fit="cover" data-object-position="0% 12%"/><div class="wp-block-cover__inner-container"><!-- wp:group {"backgroundColor":"background","className":"earthicons-submenu","layout":{"type":"constrained","contentSize":"100px"}} -->
+<div class="wp-block-group earthicons-submenu has-background-background-color has-background"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>English</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Dutch</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>French</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>Sweden</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
+<div class="wp-block-group"><!-- wp:paragraph -->
+<p>French</p>
+<!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:group {"className":"banner_Section","layout":{"type":"default"}} -->
 <div class="wp-block-group banner_Section"><!-- wp:group {"style":{"spacing":{"blockGap":"0"}},"layout":{"type":"flex","flexWrap":"nowrap","justifyContent":"center"}} -->
 <div class="wp-block-group"><!-- wp:paragraph {"align":"center","placeholder":"Write title…","style":{"typography":{"fontSize":"2rem"}},"textColor":"background"} -->
 <p class="has-text-align-center has-background-color has-text-color" style="font-size:2rem">

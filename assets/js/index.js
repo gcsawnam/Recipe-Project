@@ -59,11 +59,20 @@ $(document).ready(function () {
           : $(".navbar_Search_Button").css("display","block")   
           
      })
-    
-    
-    
-   
-   
+
+     $(".earthicons ,.earthicons-submenu").on("mouseover", function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $(".earthicons-submenu").css("visibility","visible")
+    })
+
+
+
+    $(".earthicons").on("mouseleave", function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      $(".earthicons-submenu").css("visibility","hidden")
+    })
 
    isdownIconClick=true;
 
