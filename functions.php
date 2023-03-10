@@ -23,6 +23,7 @@ function recipes_scripts() {
 	wp_enqueue_style( 'my-style', get_stylesheet_directory_uri() . '/assets/scss/index.css', false, '1.0', 'all' ); // Inside a child theme
 	wp_enqueue_style( 'my-style', plugins_url( '/assets/scss/index.css', __FILE__ ), false, '1.0', 'all' ); // Inside a plugin
 	wp_deregister_script( 'jquery' );
+	wp_enqueue_script('jQuery');
 
     wp_register_script('jquery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', array(), '3.3.1', true);
 
