@@ -100,11 +100,14 @@
   width: 124px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 104px;
-  right: 49px;
+  position: absolute;
+  top: 94.3px;
   visibility: hidden;
   z-index: 999;
+}
+
+.earthicons {
+  position: relative;
 }
 
 .search_icon {

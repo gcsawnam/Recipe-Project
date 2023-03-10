@@ -89,11 +89,13 @@
   width: 124px;
   display: flex;
   flex-direction: column;
-  position: fixed;
-  top: 104px;
-  right: 49px;
+  position: absolute;
+  top: 94.3px;
   visibility: hidden;
   z-index: 999;
+}
+.earthicons{
+  position: relative;
 }
 
 .search_icon {
@@ -105,3 +107,11 @@
 .wp-block-search__button-outside.wp-block-search__icon-button.aligncenter.wp-block-search.navbar_Search_Button {
   display: none;
 }
+
+
+// @media( max-width:1920px){
+//   .earthicons-submenu {
+//     right: 278px;
+//   }
+  
+// }
