@@ -2,7 +2,7 @@
   display: none;
 }
 
-.is-content-justification-center.is-layout-constrained.wp-container-9.wp-block-group.alignwide {
+.is-content-justification-center.is-layout-constrained.wp-container-15.wp-block-group.alignwide {
   position: fixed;
   background: white;
   height: 73px;
@@ -101,7 +101,7 @@
   display: flex;
   flex-direction: column;
   position: absolute;
-  top: 94.3px;
+  top: 72.3px;
   visibility: hidden;
   z-index: 999;
 }

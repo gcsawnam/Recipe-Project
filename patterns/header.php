@@ -5,6 +5,7 @@
   * Categories:featured
   */
 ?>
+
 <!-- wp:group {"layout":{"type":"constrained"}} -->
 <div id="overlay" class="wp-block-group"></div>
 <!-- /wp:group -->
@@ -22,14 +23,7 @@
 <!-- /wp:group -->
 
 <!-- wp:group {"className":"navbar_Image_Section","layout":{"type":"flex","flexWrap":"nowrap"}} -->
-<div class="wp-block-group navbar_Image_Section"><!-- wp:image {"id":30,"width":21,"height":24,"sizeSlug":"full","linkDestination":"none","className":"earthicons"} -->
-<figure class="wp-block-image size-full is-resized earthicons"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/earth-americas-solid.jpg" alt="" class="wp-image-30" width="21" height="24"/></figure>
-<!-- /wp:image --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group --></div>
-<!-- /wp:group -->
-
-<!-- wp:group {"backgroundColor":"background","className":"earthicons-submenu","layout":{"type":"constrained","contentSize":"100px"}} -->
+<div class="wp-block-group navbar_Image_Section"><!-- wp:group {"backgroundColor":"background","className":"earthicons-submenu","layout":{"type":"constrained","contentSize":"100px"}} -->
 <div class="wp-block-group earthicons-submenu has-background-background-color has-background"><!-- wp:group {"layout":{"type":"flex","flexWrap":"nowrap"}} -->
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>English</p>
@@ -58,5 +52,12 @@
 <div class="wp-block-group"><!-- wp:paragraph -->
 <p>French</p>
 <!-- /wp:paragraph --></div>
+<!-- /wp:group --></div>
+<!-- /wp:group -->
+
+<!-- wp:image {"id":30,"width":21,"height":24,"sizeSlug":"full","linkDestination":"none","className":"earthicons"} -->
+<figure class="wp-block-image size-full is-resized earthicons"><img src="<?php echo esc_url( get_template_directory_uri() );?>/assets/images/earth-americas-solid.jpg" alt="" class="wp-image-30" width="21" height="24"/></figure>
+<!-- /wp:image --></div>
+<!-- /wp:group --></div>
 <!-- /wp:group --></div>
 <!-- /wp:group -->
