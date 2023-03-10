@@ -1,5 +1,5 @@
 
-$(document).ready(function () {
+jQuery(document).ready(function () {
   const Search = document.querySelector(".navbar_Image_Section");
   const SearchLink = document.createElement("a"); // create anchor tag
     
