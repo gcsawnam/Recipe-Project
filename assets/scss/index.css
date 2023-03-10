@@ -243,6 +243,20 @@
     padding: 0px 20px 0px 20px;
   }
 }
+@media (max-width: 948px) {
+  .earthicons img {
+    height: 19px;
+    width: 16px;
+  }
+}
+
+@media (max-width: 948px) {
+  .search_icon {
+    height: 17px;
+    width: 23px;
+  }
+}
+
 .dr-post-carousel.owl-carousel .owl-item img {
   width: 95% !important;
 }

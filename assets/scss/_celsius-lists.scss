@@ -84,3 +84,17 @@ margin:12px !important;
     
     }
 }
+
+
+.earthicons img{
+    @media( max-width:948px){
+        height: 19px;
+        width: 16px;
+    }
+}
+.search_icon {
+    @media( max-width:948px){
+
+    height: 17px;
+    width: 23px;
+}}
