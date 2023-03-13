@@ -109,9 +109,9 @@
 }
 
 
-// @media( max-width:1920px){
-//   .earthicons-submenu {
-//     right: 278px;
-//   }
+@media( min-width:700px){
+  .wp-block-navigation__submenu-container {
+    display: block !important;
+}
   
-// }
+}

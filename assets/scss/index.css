@@ -120,6 +120,11 @@
   display: none;
 }
 
+@media (min-width: 700px) {
+  .wp-block-navigation__submenu-container {
+    display: block !important;
+  }
+}
 .wp-block-search__button {
   margin-left: unset !important;
 }
