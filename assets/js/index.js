@@ -80,6 +80,7 @@ jQuery(document).ready(function () {
    isdownIconClick=true;
 
    
+   $(" .wp-block-navigation__submenu-container").css("display","none")
   
    $(".wp-block-navigation-submenu__toggle").on("click", function(e) {
     e.preventDefault();
